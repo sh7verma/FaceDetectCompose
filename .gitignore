@@ -13,3 +13,29 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Native builds
+.cxx/
+.externalNativeBuild/
+
+# Local configuration
+local.properties
+
+# Jetpack Compose previews
+*.preview
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Captures
+captures/
